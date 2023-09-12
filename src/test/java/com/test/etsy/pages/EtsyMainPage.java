@@ -15,6 +15,9 @@ public class EtsyMainPage {
     WebElement searchBar;
     public void searchItem(String itemName){
         searchBar.sendKeys(itemName, Keys.ENTER);
+        System.out.println("bukibuki");
 
     }
+
+    //change
 }
